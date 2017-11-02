@@ -12,7 +12,7 @@
 		8452804B1FA9D4A1004DD88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452804A1FA9D4A1004DD88F /* Assets.xcassets */; };
 		8452804E1FA9D4A1004DD88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452804C1FA9D4A1004DD88F /* LaunchScreen.storyboard */; };
 		84629A871FAAFB060041A1B7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629A861FAAFB060041A1B7 /* TableViewController.swift */; };
-		84629A8E1FAAFC380041A1B7 /* AnivalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629A8D1FAAFC380041A1B7 /* AnivalTableViewCell.swift */; };
+		84629A8E1FAAFC380041A1B7 /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629A8D1FAAFC380041A1B7 /* AnimalTableViewCell.swift */; };
 		84629A901FAAFE360041A1B7 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629A8F1FAAFE360041A1B7 /* Animals.swift */; };
 		84629A941FAB0AC20041A1B7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629A931FAB0AC20041A1B7 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		8452804D1FA9D4A1004DD88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8452804F1FA9D4A1004DD88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84629A861FAAFB060041A1B7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		84629A8D1FAAFC380041A1B7 /* AnivalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnivalTableViewCell.swift; sourceTree = "<group>"; };
+		84629A8D1FAAFC380041A1B7 /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
 		84629A8F1FAAFE360041A1B7 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 		84629A931FAB0AC20041A1B7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +89,7 @@
 		84629A8A1FAAFB2B0041A1B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				84629A8D1FAAFC380041A1B7 /* AnivalTableViewCell.swift */,
+				84629A8D1FAAFC380041A1B7 /* AnimalTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 				845280441FA9D4A1004DD88F /* AppDelegate.swift in Sources */,
 				84629A901FAAFE360041A1B7 /* Animals.swift in Sources */,
 				84629A941FAB0AC20041A1B7 /* InfoViewController.swift in Sources */,
-				84629A8E1FAAFC380041A1B7 /* AnivalTableViewCell.swift in Sources */,
+				84629A8E1FAAFC380041A1B7 /* AnimalTableViewCell.swift in Sources */,
 				84629A871FAAFB060041A1B7 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,5 +22,4 @@ class AnimalTableViewCell: UITableViewCell {
         ibImageAnimal.image = image
         ibLabelAnimal.text = name
     }
-
 }

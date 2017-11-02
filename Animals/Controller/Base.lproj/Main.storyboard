@@ -76,7 +76,7 @@
                                             <outlet property="ibImageAnimals" destination="Y1X-sb-WGl" id="wnP-Nh-W9Q"/>
                                             <outlet property="ibLabelAnimal" destination="Tp9-s7-19U" id="saK-6Z-ihb"/>
                                             <outlet property="ibLabelAnimals" destination="Tp9-s7-19U" id="lag-lS-yc1"/>
-                                            <segue destination="Ra8-4v-mV7" kind="show" id="O0X-ZA-5dB"/>
+                                            <segue destination="Ra8-4v-mV7" kind="show" identifier="ViewInfoAnimal" id="O0X-ZA-5dB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
