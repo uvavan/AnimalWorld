@@ -36,7 +36,7 @@ class TableViewController: UIViewController {
         animals.append(Animal(imageTitle: #imageLiteral(resourceName: "som_main"), imageInfo: #imageLiteral(resourceName: "some_info"), name: "Сом", clas: "Лучепёрые рыбы", family: "Сомовые", type: "Сомы"))
         animals.append(Animal(imageTitle: #imageLiteral(resourceName: "shmel_main"), imageInfo: #imageLiteral(resourceName: "shmel_info"), name: "Шмель", clas: "Насекомые", family: "Пчёлы настоящие", type: "Шмели"))
         animals.append(Animal(imageTitle: #imageLiteral(resourceName: "lev_main"), imageInfo: #imageLiteral(resourceName: "lev_info"), name: "Лев", clas: "Млекопитающие" , family: "Кошачьи", type: "Пантеры"))
-        animals.append(Animal(imageTitle: #imageLiteral(resourceName: "zac_main"), imageInfo: #imageLiteral(resourceName: "zac_info"), name: "3аяц", clas: "Млекопитающие", family: "Зайцевые", type: ""))
+        animals.append(Animal(imageTitle: #imageLiteral(resourceName: "zac_main"), imageInfo: #imageLiteral(resourceName: "zac_info"), name: "3аяц", clas: "Млекопитающие", family: "Зайцевые", type: " "))
         animals.append(Animal(imageTitle: #imageLiteral(resourceName: "bear_main"), imageInfo: #imageLiteral(resourceName: "Bear_info"), name: "Бурый медведь", clas: "Млекопитающие", family: "Медвежьи", type: "Медведи"))
         
         for animal  in animals {
@@ -83,7 +83,8 @@ extension TableViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimalCell", for: indexPath) as? AnimalTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "tcAnimalCell", for: indexPath) as? AnimalTableViewCell else {
+            print("Error")
             fatalError("Error: Type call error")
         }
         guard let item = getAnimal(for: indexPath) else {
