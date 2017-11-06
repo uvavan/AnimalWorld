@@ -9,11 +9,10 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-    
-    @IBOutlet weak var ibImageViweAnimal: UIImageView!
-    @IBOutlet weak var ibLabelClass: UILabel!
-    @IBOutlet weak var ibLabelFamily: UILabel!
-    @IBOutlet weak var ibLabelType: UILabel!
+    @IBOutlet private weak var ibImageViweAnimal: UIImageView!
+    @IBOutlet private weak var ibLabelClass: UILabel!
+    @IBOutlet private weak var ibLabelFamily: UILabel!
+    @IBOutlet private weak var ibLabelType: UILabel!
     var animalInfo: Animal?
 
     override func viewDidLoad() {

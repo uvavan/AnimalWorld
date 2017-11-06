@@ -12,13 +12,11 @@ class AnimalTableViewCell: UITableViewCell {
 
     @IBOutlet private weak var ibImageAnimal: UIImageView!
     @IBOutlet private weak var ibLabelAnimal: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
     }
-    
-    func update (image: UIImage, name: String){
+    func update (image: UIImage, name: String) {
         ibImageAnimal.image = image
         ibLabelAnimal.text = name
     }
